@@ -1,0 +1,154 @@
+.s1{
+    background-color:#F3C558;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    padding-top: 10vh ;
+}
+
+.grid_cursos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    grid-gap:20px;
+    
+    
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    margin-right: 10vw;
+}
+
+.s1 h1{
+    width: 187px;
+    height: 51px;
+    left: 1123px;
+    top: 42px;
+    padding-left: 5.5vw;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+}
+
+.s1 p{
+    font-family: 'Open_Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    width: 312px;
+    height: 176px;
+    left: 38px;
+    top: 155px;
+    margin-left: 2vw;
+}
+
+.cards1{
+    width: 387px;
+    height: 367px;
+    left: 1023px;
+    top: 155px;
+    margin-left: 5vw;
+
+    background: #FBFBFB;
+    border-radius: 12px;
+    color:black;    
+}
+
+#button{
+    background-color: #F3C558;
+    padding-bottom: 10vh;
+}
+
+.botao{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 450px;
+    height: 79px;
+    left: 735px;
+    top: 629px;
+    margin-left:38vw;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 75px;
+    text-decoration: none;
+
+    background-color: black;
+    border-radius: 15px;
+}
+
+.s2{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.s2 h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    margin-right: 7vw;
+    
+}
+
+.s2 h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 2vh ;
+    
+}
+
+.cards2{
+    width: 1000px;
+    height: 290px;
+    left: 492px;
+    top: 1112px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 5vh;
+    margin-right:5vw;
+
+    background: #FBFBFB;
+    border-radius: 12px;
+}
+
+.mod_lista{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-top: 15px;
+    font-family: 'Open_Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 20px;
+}

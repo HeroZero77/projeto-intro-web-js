@@ -1,0 +1,76 @@
+section{
+    background-color:#F3C558;
+    display: flex;
+    color:black;
+    padding-top: 10vh;
+    height: 770px;
+}
+
+#busca{
+    position: absolute;
+    width: 450px;
+    height: 43px;
+    left: 924px;
+    top: 150px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+#search-button{
+    position: absolute;
+    width: 122px;
+    height: 46px;
+    left: 1254px;
+    top: 150px;
+    color: white;
+    font-family: 'Poppins';
+
+    background: black;
+    border-radius: 0px 4px 3px 0px;
+}
+
+#search-button:hover {
+    background-color: #0e0e0ed8;
+}
+
+#search-button:active {
+    border: 1px solid #ffff;
+}
+
+.turmas-cards {
+    width: 90%;
+    height: 80%;
+    margin-top: 10vh;
+    margin-left: 4.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    font-family: 'Poppins';
+}
+
+.turmas-cards div {
+    background-color: #ffff;
+    border-radius: 12px;
+    height: 40%; 
+}
+
+.turmas-cards ul {
+    margin: 1.5rem;
+} 
+
+.turmas-cards h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.turmas-cards li {
+    list-style-type: none;
+    font-weight: 400;
+    line-height: 1.6rem;
+}

@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Poppins;
+    src: url(media/fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Open_Sans;
+    src: url(media/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 1920px;
+    height:100px;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    list-style: none;
+    display: flex;
+    gap:50px;
+    margin-left: 5em;
+}
+
+#link_{
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.5px;
+    color: #0E0E0E;
+}
+
+#link_:after{
+   content: "";
+   position: absolute;
+   background-color: lightskyblue;
+   height: 3px;
+   width: 0;
+   left: 0;
+   bottom: -5px;
+   transition: 0.3s ease;
+}
+
+#link_:hover:after{
+    width: 100%;
+}
+
+.navbar.active{
+    text-decoration: underline !important;
+    text-decoration-color: lightskyblue !important;
+    text-underline-position: below;
+    text-underline-offset: 11px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute; 
+    overflow-x: hidden;
+    display: block;
+}
+
+main{
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+    background: #F3C558 url(./media/background-hero.png);
+}
+
+footer{
+    background-color: #F3C558; 
+}
+
+#logo_transp{
+    width: 300px;
+    margin-left: 10vw;
+    padding-top: 15vh;
+}
+
+footer h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.colunas{
+    display: flex;
+    flex-direction: row;
+}
+
+.endereco, .links, .redes_sociais, .area_restrita{
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+}
+
+#mapa, #twitter, #linkedin, #face, #insta{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+
+.endereco p{
+    font-family: 'Open_Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.links_lista, .links_area{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-top: 15px;
+    font-family: 'Open_Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+aside{
+    background-color: black;
+    width: 400px;
+    height: 778px;
+    float: left;
+    padding-top: 10vh;
+}
+
+aside h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 9vw;
+    padding-bottom: 8vh;
+}
+
+#link{
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+#link:after{
+   content: "";
+   position: absolute;
+   background-color: lightskyblue;
+   height: 3px;
+   width: 0;
+   left: 0;
+   bottom: -5px;
+   transition: 0.3s ease;
+}
+
+#link:hover:after{
+    width: 100%;
+}

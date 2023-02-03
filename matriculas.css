@@ -1,0 +1,92 @@
+section{
+    background-color:#F3C558;
+    display: flex;
+    
+    color:black;
+    padding-top: 10vh;
+    height: 778px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13vw;
+}
+
+section h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 5vh;
+}
+
+.nome, .curso, .turma{
+    width: 50px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#nome, #cursoM, #turmaM, #parcela{
+    width: 330px;
+    height: 36px;
+    margin-bottom: 2vh;
+    
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    background: #FBFBFB;
+    border-radius: 4px;
+}
+
+.matricular{
+    width: 330px;
+    height: 49.59px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-top: 5vh;
+
+    background: #0E0E0E;
+    border-radius: 9px;
+
+}
+
+.container-matricula{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#matricula-result {
+    margin-left: 15vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#matricula-result h2{
+    font-size: 25px;
+    line-height: 36px;
+    margin-bottom: 3vh;
+}
+
+#matricula-result li{
+    list-style: none;
+    padding-top: 1.5vh;  
+}
+
+#confirma{
+    height: 1.5rem;
+    width: 1.5rem;
+}
