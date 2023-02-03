@@ -1,3 +1,4 @@
+
 const cursos = [
 
   {nome: "HTML e CSS", descricao: "Aprenda a fazer marcações web e personalizá-las", duracao: "1 mês", valor: 500},
@@ -183,6 +184,7 @@ let listaCursos = []
 if(limpar) {
   limpar.addEventListener("click", (event) => {
     event.preventDefault()
+    limparCarrinho()
     relatorioAluno.innerHTML=""
     mensagem.innerHTML=""
     simuladorValor.innerHTML=""
@@ -200,8 +202,25 @@ if(incluirCurso) {
 if (valorBotao) {
   valorBotao.addEventListener("click", (event) => {
     event.preventDefault()
+    
     parcelarCurso(carrinhoCursos)
   })
+}
+
+function limparCarrinho(){
+  if(carrinhoCursos.length>0){
+    carrinhoCursos = []
+    listaCursos = []
+  }
+}
+
+function preventVazio(){
+  const cursoFin = document.getElementById("cursoFin").value
+  const nPaFin = document.getElementById("nParcelasFin").value
+
+  if(!cursoFin || !nPaFin){
+    Swal.fire('Preencha todos os campos.')
+  }
 }
 
 function buscarCurso(nomeCurso){
@@ -239,7 +258,7 @@ const incrementarCarrinho = () => {
 function parcelarCurso(carrinhoCursos){
   const nullParcelas = document.getElementById("nParcelasFin")
   const nParcelasFin = Number(nullParcelas.value)
-  
+
   let desconto = 0
   let valorBruto = 0
   
@@ -254,11 +273,7 @@ function parcelarCurso(carrinhoCursos){
       desconto = 0;
       break;
     default:
-      Swal.fire(
-        'Quantidade de parcelas inválida.',
-        'Digite um número válido.',
-        'error'
-      )
+      preventVazio()
       return
   }
 
