@@ -1,0 +1,81 @@
+section{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+    padding-bottom: 20vh
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 486px;
+    height: 570px;
+    left: 717px;
+    top: 244px;
+    margin-right: 7vw;
+
+    background: white;
+    border-radius: 9px;
+}
+
+h1{
+    padding-left: 8.5vw;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.9555px;
+    line-height: 36px;
+}
+
+.nome, .email, .mensagem{
+    margin-left: 2vw;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.9098px;
+    line-height: 25px;
+}
+
+#nomeForm, #emailForm{
+    margin-left: 2vw;
+    margin-bottom: 3vh;
+    width: 400px;
+    height: 40px;
+    
+    border: 1.5px solid #0E0E0E;
+    border-radius: 3px;
+}
+
+.textarea{
+    width: 400px;
+    height: 200px;
+    margin-left: 2vw;
+    text-align:start;
+
+    border: 1.5px solid #0E0E0E;
+    border-radius: 3px;
+}
+
+.enviar{
+    width: 400px;
+    height: 70px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.9098px;
+    line-height: 25px;
+
+    background: #F6C34A;
+    border-radius: 6.34116px;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+}

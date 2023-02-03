@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./contato.css">
+    <link rel="stylesheet" href="./header and footer.css">
+    <title>LabEscola</title>    
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./media/logo 1.png" alt="LabEscola logo" class="logo">
+        </a>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html" class="navbar" id="link_">Home</a></li>
+    
+                <li><a href="./cursos.html" class="navbar" id="link_">Cursos</a></li>
+    
+                <li><a href="./contato.html" class="navbar active" id="link_">Contato</a></li>
+    
+                <li><a href="./adm.html" class="navbar" id="link_">Área ADM</a></li> 
+            </ul> 
+        </nav>
+    </header>
+
+   <main> 
+        <section>
+            <form action="#">
+                <h1>Fale Conosco</h1>
+                
+                <label for="nome"><b class="nome">Nome:</b></label>
+                
+                <input type="text" name="nome" id="nomeForm">
+                
+                <label for="email"><b class="email">Email:</b></label>
+               
+                <input type=email name="email" id="emailForm">
+                
+                <b class="mensagem">Mensagem:</b>
+
+                <input type="text" class="textarea" id="textForm">
+
+                <button type="submit" class="enviar" id="enviarForm">Enviar</button>
+            </form>
+        </section>
+    </main> 
+
+    <footer>
+        <img src="media/logo_1-removebg-preview.png" id="logo_transp">
+ 
+        <div class="colunas">
+             <div class="endereco">
+                 <h2>Endereço</h2>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9962768688824!2d-46.6985022!3d-23.5685772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57a7c7ace4c3%3A0x586759cab9b5c95a!2sR.%20Pais%20Leme%2C%20215%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005424-150!5e0!3m2!1spt-BR!2sbr!4v1672881963417!5m2!1spt-BR!2sbr" width="450" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+                 <p>R. Pais Leme, 215. CEP 05424-150 - Pinheiros</p>
+             </div>
+             <div class="links">
+                 <h2>Links</h2>
+                 <ul class="links_lista">
+                     <li><a href="./index.html" id="link_">Home</a></li>
+         
+                     <li><a href="./cursos.html" id="link_">Cursos</a></li>
+         
+                     <li><a href="" id="link_">Blog</a></li>
+         
+                     <li><a href="./contato.html" id="link_">Fale conosco</a></li>
+                     
+                     <li><a href="" id="link_">Termos e condições</a></li>
+ 
+                     <li><a href="" id="link_">Política de privacidade</a></li>
+ 
+                     <li><a href="" id="link_">FAQ</a></li>
+                 </ul> 
+             </div> 
+             <div class="redes_sociais">
+                 <h2>Redes Sociais</h2>
+                    <a href="https://twitter.com/" target="_blank"><img src="media/twitter.png" id="twitter"></a>
+                    <a href="https://linkedin.com/" target="_blank"><img src="media/lnkd.png" id="linkedin"></a>
+                    <a href="https://facebook.com/" target="_blank"><img src="media/face.png" id="face"></a>
+                    <a href="https://instagram.com/" target="_blank"><img src="media/insta.png" id="insta"></a>
+             </div>
+             <div class="area_restrita">
+                 <h2>Área Restrita</h2>
+                 <ul class="links_area">
+                     <li><a href="./adm.html" id="link_">Área administrativa</a></li>
+         
+                     <li><a href="./financeiro.html" id="link_">Espaço do aluno</a></li>
+         
+         </div>
+     </footer>
+
+</body>
+</html>
